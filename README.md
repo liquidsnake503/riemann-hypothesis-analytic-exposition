@@ -11,6 +11,8 @@ This preliminary expository note presents a detailed analytic argument connectin
 
 The argument uses the Mellin transform, high derivatives, concentration of a gamma distribution, and isolation of a nearest pole to control cancellation. The arithmetic window estimate is taken as an external input from the work of Levent Alpöge, as described in Propositions 2.4 and 2.5 of Slijepčević's exposition. The analytic result expands on the zero-exclusion principle outlined in Proposition 2.2 of that exposition.
 
+For $1/2\le\theta<\Re\rho$, Lee Crossley gives a measure bound for the excursions in Theorem 2. For every $M>0$ and $\varepsilon>0$, the set where $G(x)>Mx^\theta$ has Lebesgue measure greater than $Y^{3/2-\varepsilon}$ in every sufficiently late window $[Y,Y^{3/2}]$. [The Crossley Criteria, §11.3](https://doi.org/10.5281/zenodo.24466908) and [Lean theorem](https://github.com/leecrossley/crossley-criteria-riemann-hypothesis/blob/fa2da5e5cd92579184537f49d569230db76f6026/project/src/ArchiveFreeBadMeasure.lean#L664-L669).
+
 ## Scope and verification status
 
 This is an AI-assisted mathematical exposition, not a claim to an independent proof of the Riemann hypothesis or to priority for Alpöge's result. The deep arithmetic estimate is not proved here. The manuscript has not been peer reviewed or independently verified in full, and corrections and mathematical feedback are welcome. Verification of the external Lean development should not be confused with verification of this note.
